@@ -30,7 +30,10 @@ var Dog = exports.Dog = /*#__PURE__*/function (_Animal) {
     key: "walk",
     value: function walk() {
       var result = _get(_getPrototypeOf(Dog.prototype), "move", this).call(this);
-      result += "\n".concat(this.name, " walks like a dog");
+      var name = this.name,
+        age = this.age,
+        breed = this.breed;
+      result += "\n".concat(name, " walks like a ").concat(breed, " dog");
       return result;
     }
   }]);

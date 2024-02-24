@@ -6,7 +6,8 @@ export class Cat extends Animal {
   }
   walk() {
     let result = super.move();
-    result += `\n${this.name} walks like a cat`;
+    const { name, age, breed } = this;
+    result += `\n${name} walks like a ${breed} cat`;
     return result;
   }
 }
