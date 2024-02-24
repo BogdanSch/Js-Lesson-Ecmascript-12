@@ -1,0 +1,20 @@
+{
+  "name": "js-lesson-ecmascript-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Lesson1/animals/scripts/src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel Lesson1/animals/scripts/src --out-dir Lesson1/animals/scripts/dist",
+    "serve": "node Lesson1/animals/scripts/dist/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}
